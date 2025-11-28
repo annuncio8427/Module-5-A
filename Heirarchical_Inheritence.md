@@ -31,7 +31,7 @@ To write a Python program that uses **Hierarchical Inheritance** to input and di
 5. Display collected information using class methods.
 
 ## Program
-
+```
 class Details:
     def getName(self, name):
         self.name = name
@@ -87,9 +87,9 @@ pat.getName(name)
 pat.getAge(age)
 pat.getPatientDetails(pat_id, disease)
 pat.showPatient()
-
+```
 ## Sample Output
-
+```
 Enter Employee Name: John
 Enter Employee Age: 32
 Enter Employee ID: E101
@@ -111,4 +111,4 @@ Name: David
 Age: 45
 Patient ID: P201
 Disease: Fever
-
+```
