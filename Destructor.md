@@ -21,7 +21,7 @@ The program defines a class `Demo` with:
    - Create an instance of the `Demo` class.
    - Delete the object using the `del` keyword.
 ## Program
-
+```
 class Demo:
     def __init__(self):
         self.status = "Alive"
@@ -32,12 +32,13 @@ class Demo:
 
 obj = Demo()
 del obj
-
+```
 
 ## 🧪 Output
+```
 Alive
 Object is being destroyed
-
+```
 
 ## Result
 Thus, the Python program successfully demonstrates the use of a destructor that executes automatically when an object is deleted.
