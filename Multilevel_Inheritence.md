@@ -26,7 +26,7 @@ To write a Python program that uses multilevel inheritance to get and display a 
    - Print all details using class methods.
 
 ## Program
-
+```
 class Parent:
     def __init__(self, name):
         self.name = name
@@ -64,9 +64,9 @@ print("Name:", obj.getName())
 print("Age:", obj.getAge())
 print("Location:", obj.getLocation())
 
-
+```
 ## Sample Output
-
+```
 Enter Name: Priya
 Enter Age: 21
 Enter Location: Chennai
@@ -75,3 +75,4 @@ Enter Location: Chennai
 Name: Priya
 Age: 21
 Location: Chennai
+```
